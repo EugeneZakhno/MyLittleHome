@@ -1,10 +1,10 @@
 import * as THREE from 'three';
 import {GLTFLoader} from 'three/examples/jsm/loaders/GLTFLoader';
-import init from './init';
+import index from './index';
 
 import './style.css';
 
-const { sizes, camera, scene, canvas, controls, renderer } = init();
+const { sizes, camera, scene, canvas, controls, renderer } = index();
 
 camera.position.set(0, 2, 5);
 

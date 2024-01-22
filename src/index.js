@@ -1,7 +1,7 @@
 import * as THREE from 'three';
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
 
-const init = () => {
+const index = () => {
 	const sizes = {
 		width: window.innerWidth,
 		height: window.innerHeight,
@@ -22,4 +22,4 @@ const init = () => {
 	return { sizes, scene, canvas, camera, renderer, controls };
 };
 
-export default init;
+export default index;
