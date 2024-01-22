@@ -1,8 +1,7 @@
 {
-  "name": "mylittlehome",
+  "name": "Mylittlehome",
   "version": "1.0.0",
   "description": "## Описание",
-  "main": "index.js",
   "scripts": {
     "build": "webpack --config ./bundler/webpack.prod.js",
     "dev": "webpack serve --config ./bundler/webpack.dev.js",
@@ -12,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/EugeneZakhno/MyLittleHome.git"
+    "url": "git + https://github.com/EugeneZakhno/MyLittleHome.git"
   },
   "keywords": [],
   "author": "",
@@ -20,7 +19,7 @@
   "bugs": {
     "url": "https://github.com/EugeneZakhno/MyLittleHome/issues"
   },
-  "homepage": "https://github.com/EugeneZakhno/MyLittleHome#readme",
+  "homepage": "https://eugenezakhno.github.io/MyLittleHome/",
   "devDependencies": {
     "@babel/core": "^7.22.10",
     "@babel/preset-env": "^7.22.10",
