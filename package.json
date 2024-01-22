@@ -1,7 +1,7 @@
 {
-  "name": "threejs_project_template",
+  "name": "mylittlehome",
   "version": "1.0.0",
-  "description": "",
+  "description": "## Описание",
   "main": "index.js",
   "scripts": {
     "build": "webpack --config ./bundler/webpack.prod.js",
@@ -12,15 +12,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/WebDev-Sandbox/threejs_project_template.git"
+    "url": "git+https://github.com/EugeneZakhno/MyLittleHome.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/WebDev-Sandbox/threejs_project_template/issues"
+    "url": "https://github.com/EugeneZakhno/MyLittleHome/issues"
   },
-  "homepage": "https://github.com/WebDev-Sandbox/threejs_project_template#readme",
+  "homepage": "https://github.com/EugeneZakhno/MyLittleHome#readme",
   "devDependencies": {
     "@babel/core": "^7.22.10",
     "@babel/preset-env": "^7.22.10",
