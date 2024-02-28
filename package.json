@@ -8,8 +8,9 @@
     "dev": "webpack serve --config ./bundler/webpack.dev.js",
     "lint": "eslint src --ext .js",
     "lint:fix": "npm run lint -- --fix",
+    "start": "webpack serve",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d ./dist"
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
